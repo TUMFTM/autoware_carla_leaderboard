@@ -124,6 +124,10 @@ The current recommended Autoware Version is: **1.7.1**
 > 4) Clone the audi etron vehicle model: https://github.com/TUMFTM/carla_audi_etron
 > 4) Mount the repos into the autoware docker and build everything 
 
+You can find Town01, Town07 and Town10 here:
+[TODO](Link)
+
+
 ### Optional
 Quick and easy ways to increase the vehicle's speed in Autoware Universe, although other parameters also affect the driving profile.
 **/autoware_launch/config/planning/scenario_planning/common/common.param.yaml**
