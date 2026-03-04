@@ -28,8 +28,6 @@ from rclpy.qos import DurabilityPolicy, QoSProfile, qos_profile_sensor_data
 from rclpy.task import Future
 
 from ackermann_msgs.msg import AckermannDrive
-from carla_msgs.msg import CarlaEgoVehicleControl, CarlaRoute, CarlaGnssRoute
-from carla_msgs.srv import SpawnObject, DestroyObject
 from diagnostic_msgs.msg import KeyValue, DiagnosticStatus
 from geometry_msgs.msg import Point, Pose, Quaternion, Vector3, TransformStamped, AccelWithCovarianceStamped, PoseStamped, PoseWithCovarianceStamped, TwistWithCovarianceStamped
 from sensor_msgs.msg import NavSatFix, Imu, PointCloud2, Image, CameraInfo
