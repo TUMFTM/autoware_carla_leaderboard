@@ -4,15 +4,17 @@ This project enables the execution and evaluation of CARLA Leaderboard challenge
 ### Key Feature
 - Fully compatible with **CARLA 0.9.16** and **Autoware Universe 1.7.1** (February 2026 release).
 
+- High-Performance Data Pipeline: Optimized sensor data transport and processing utilizing **CARLA 0.9.16 native DDS** for transmission and a **C++ backend** for low-latency translation.
+ 
+- Precise Reproducibility: Ensures high scenario consistency through **internal time tracking** and **synchronization** between the CARLA simulator and the Autoware software stack.
+
 - Native support for CARLA Town01, Town07, and Town10.
 
 - Includes a Digital Twin of the CARLA Audi e-tron.
 
--  Integrated Traffic Light Detection within the Autoware pipeline.
+- Integrated Traffic Light Detection within the Autoware pipeline.
 
-- High-Performance Data Pipeline: Optimized sensor data transport and processing utilizing **CARLA 0.9.16 native DDS** for transmission and a **C++ backend** for low-latency translation.
- 
-- Precise Reproducibility: Ensures high scenario consistency through **internal time tracking** and **synchronization** between the CARLA simulator and the Autoware software stack.
+- Enables a privileged mode that provides Autoware with ground truth localization and perception data for training data generation.
 
 ### Contact & Support
 For questions, bug reports, or feature requests, please use the [GitHub Issues](link-to-your-repo/issues) page.
