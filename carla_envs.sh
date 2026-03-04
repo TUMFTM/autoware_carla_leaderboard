@@ -4,8 +4,8 @@
 WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd | tr -d '[:space:]')"
 
 # Define the required paths
-export SCENARIO_RUNNER_ROOT="${WORK_DIR}/src/external/scenario_runner/scenario_runner_docker/scenario_runner"
-export AGENTS_ROOT="${WORK_DIR}/src/external/scenario_runner/scenario_runner_docker"
+export SCENARIO_RUNNER_ROOT="${WORK_DIR}/src/external/scenario_runner"
+export AGENTS_ROOT="${WORK_DIR}/src/external/scenario_runner/srunner/tests"
 export LEADERBOARD_ROOT="${WORK_DIR}/src/external/leaderboard"
 export PROJECT_ROOT="${WORK_DIR}/src/tum_agents"
 export AW_AGENT_ROOT="${WORK_DIR}/src/tum_agents/autoware_agent"
