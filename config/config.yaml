@@ -4,7 +4,8 @@ evaluation:
     agent: src/autoware_agent/aw_e2e.py
     # This is for the priviliged
     #agent: src/autoware_agent/aw_priviliged.py
-    #agent-config: /carla/config/config.yaml
+    # Path to Agent's configuration file (default: "")
+    agent-config: src/config/config.yaml
   challenge:
     # Participation track: SENSORS, MAP
     track: MAP
