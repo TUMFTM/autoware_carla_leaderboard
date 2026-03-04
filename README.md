@@ -49,12 +49,12 @@ docker pull tumgeka/autoware_carla_leaderboard:0.9.16
 
 2) Start autoware_carla_leaderboard docker and mount the repo directory
 ```
-rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume <autoware_carla_leaderboard> --name autoware_carla_leaderboard -- tumgeka/autoware_carla_leaderboard:0.9.16
+rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume <autoware_carla_leaderboard> --name aw_carla_leaderboard_0916 -- tumgeka/autoware_carla_leaderboard:0.9.16
 ```
 
-example for internal use without multicasting the whole network
+Example launch command using your own cyclone_localhost.xml file.
 ```
-rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume /home/tofadmin/gemb/cyclone_localhost.xml -e CYCLONEDDS_URI=/home/tofadmin/gemb/cyclone_localhost.xml --volume /home/tofadmin/gemb/autoware_carla_leaderboard --name autoware_carla_leaderboard -- tumgeka/autoware_carla_leaderboard:0.9.16
+rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume /home/tofadmin/gemb/cyclone_localhost.xml -e CYCLONEDDS_URI=/home/tofadmin/gemb/cyclone_localhost.xml --volume /home/tofadmin/gemb/awcl --name aw_carla_leaderboard_0916 -- tumgeka/autoware_carla_leaderboard:0.9.16
 ```
 3) Navigate to autoware_carla_leaderboard and import repos files necessary
 ```
@@ -75,12 +75,12 @@ and Launch Carla with native DDS
 ```
 ./CarlaUE4.sh --ros2
 ```
-1) Launch Docker: Start autoware_carla_leaderboard and mount the repo.
+1) Launch Docker: Start autoware_carla_leaderboard and mount the repo. Same as above!
 ```
 rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume <autoware_carla_leaderboard> --name aw_carla_leaderboard_0916 -- tumgeka/autoware_carla_leaderboard:0.9.16
 ```
 
-example for students
+Example launch command using your own cyclone_localhost.xml file.
 ```
 rocker --nvidia --x11 --privileged --net=host --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --volume /home/tofadmin/gemb/cyclone_localhost.xml -e CYCLONEDDS_URI=/home/tofadmin/gemb/cyclone_localhost.xml --volume /home/tofadmin/gemb/autoware_carla_leaderboard --name aw_carla_leaderboard_0916 -- tumgeka/autoware_carla_leaderboard:0.9.16
 ```
