@@ -17,7 +17,7 @@ This project enables the execution and evaluation of CARLA Leaderboard challenge
 - Enables a privileged mode that provides Autoware with ground truth localization and perception data for training data generation.
 
 ### Contact & Support
-For questions, bug reports, or feature requests, please use the [GitHub Issues](link-to-your-repo/issues) page.
+For questions, bug reports, or feature requests, please use the [GitHub Issues](https://github.com/TUMFTM/autoware_carla_leaderboard/issues) page.
 
 **Project Maintainer:**
 * **Name:** Gemb Kaljavesi
