@@ -25,11 +25,11 @@ For questions, bug reports, or feature requests, please use the [GitHub Issues](
 
 ### Paper
 If you use this or the other associated repos, please cite our preprint:
-**Autonomous Driving Challenges: An Analysis of Disengagement Data, Simulation and Real-World Insights**<br>Gemb Kaljavesi, Domagoj Majstorovic, Maxime Clement, Frank Diermeyer 
+**Empirical mapping of technical bottlenecks in autonomous driving: A cross-platform evaluation of simulated and real-world performance**<br>Gemb Kaljavesi, Domagoj Majstorovic, Maxime Clement, Frank Diermeyer 
 
 ```
 @inproceedings{awcl_26,
-  title = {Autonomous Driving Challenges: An Analysis of Disengagement Data, Simulation and Real-World Insights},
+  title = {Empirical mapping of technical bottlenecks in autonomous driving: A cross-platform evaluation of simulated and real-world performance},
   author = {Kaljavesi, Gemb and Majstorovic, Domagoj and Clement, Maxime and Diermeyer, Frank},
   year = {2026},
   howpublished = {Preprint}
